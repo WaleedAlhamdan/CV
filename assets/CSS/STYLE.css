@@ -453,20 +453,7 @@ p {
   justify-content: center;
   flex-direction: column;
 }
-/*
-.hero-content @keyframes mymove {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-  .hero-content      @keyframes slideIn {
-            from { transform: translateY(-20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-    .hero-content    @keyframes growIn {
-            from { transform: scale(0); }
-            to { transform: scale(1); }
-        }
-        -->*/
+
 
 .hero-content h1 {
   font-size: 40px;
@@ -538,13 +525,13 @@ p {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-#services {
+#Skills {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
 }
 
-.services-block span {
+.Skills-block span {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
@@ -555,24 +542,24 @@ p {
   display: block;
 }
 
-.services-block .separator {
+.Skills-block .separator {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
 }
 
-.services-block i {
+.Skills-block i {
   font-size: 44px;
   color: #b8a07e;
   line-height: 44px;
 }
 
-.services-slider .swiper-pagination {
+.Skills-slider .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
 
-.services-slider .swiper-pagination .swiper-pagination-bullet {
+.Skills-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -580,7 +567,7 @@ p {
   border: 1px solid #b8a07e;
 }
 
-.services-slider .swiper-pagination .swiper-pagination-bullet-active {
+.Skills-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #b8a07e;
 }
 
@@ -613,59 +600,7 @@ p {
   min-height: 160px;
 }
 
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
 
-.php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Blog
@@ -901,17 +836,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-    display: inline-block;
-  }
-
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
+  
 
   /* Contact */
   .contact-contact {
@@ -984,17 +909,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-    display: inline-block;
-  }
-
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
+  
 
   /* Contact */
   .contact-contact {
@@ -1067,17 +982,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 10px;
-    display: inline-block;
-  }
-
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
+  
 
   /* Contact */
   .contact-contact {
@@ -1150,16 +1055,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-  }
-
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
+  
 
   /* Contact */
   .contact-contact {
@@ -1232,17 +1128,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-  }
-
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-
+  
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;

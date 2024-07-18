@@ -525,13 +525,13 @@ p {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-#Skills {
+#services {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
 }
 
-.Skills-block span {
+.services-block span {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
@@ -542,24 +542,24 @@ p {
   display: block;
 }
 
-.Skills-block .separator {
+.services-block .separator {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
 }
 
-.Skills-block i {
+.services-block i {
   font-size: 44px;
   color: #b8a07e;
   line-height: 44px;
 }
 
-.Skills-slider .swiper-pagination {
+.services-slider .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
 
-.Skills-slider .swiper-pagination .swiper-pagination-bullet {
+.services-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -567,7 +567,7 @@ p {
   border: 1px solid #b8a07e;
 }
 
-.Skills-slider .swiper-pagination .swiper-pagination-bullet-active {
+.services-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #b8a07e;
 }
 
@@ -1149,10 +1149,10 @@ blockquote {
   }
 }
 
-
+/*
 .col {
   color: #d4af37;
-}
+}*/
 
 .education-section {
             background-color: #fff;

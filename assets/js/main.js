@@ -96,6 +96,13 @@
     onscroll(document, headerScrolled)
   }
 
+  
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+
   /**
    * Back to top button
    */

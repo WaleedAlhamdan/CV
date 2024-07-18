@@ -1149,10 +1149,7 @@ blockquote {
   }
 }
 
-/*
-.col {
-  color: #d4af37;
-}*/
+
 
 .education-section {
             background-color: #fff;
@@ -1186,3 +1183,10 @@ blockquote {
             to { transform: scale(1); }
         }
 
+.col {
+  color: #d4af37;
+}
+
+.mb-30 {
+  color: #d4af37;
+}
